@@ -1,6 +1,6 @@
 # Fibot
 
-Fibot is a simple example of a CSML chatbot using CSML Native functions.
+Fibot is a simple example of a [CSML chatbot](https://csml.dev) using [CSML Native functions](https://docs.csml.dev/language/native-csml-functions).
 
 In this bot, we are using a recursive function to calculate fibonacci numbers!
 
