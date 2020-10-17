@@ -10,4 +10,4 @@ fn fibonacci(n):
   return fibonacci(n - 1) + fibonacci(n - 2)
 ```
 
-👉 [Install this bot on CSML Studio](https://studio.csml.dev/bots?action=import&import_mode=IMPORT_URL&name=Fibot&archive_url=https%3A%2F%2Fgithub.com%2FCSML-by-Clevy%2FFibot&autosubmit=true) 👈
+👉  [Install this bot on CSML Studio](https://studio.csml.dev/bots?action=import&import_mode=IMPORT_URL&name=Fibot&archive_url=https%3A%2F%2Fgithub.com%2FCSML-by-Clevy%2FFibot&autosubmit=true) 👈
