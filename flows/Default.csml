@@ -1,0 +1,28 @@
+fn fibonacci(n):
+  if (n < 2) return 1
+  return fibonacci(n - 1) + fibonacci(n - 2)
+
+start:
+  say "Hello, I'm Fibot, I calculate Fibonacci numbers!"
+  goto calc
+
+calc:
+  say "Give me a number:"
+  hold
+
+  if (!event.is_int() || event < 0) {
+    say "That's not a positive integer!"
+    goto calc
+  }
+
+  if (event > 50) {
+    say "I could calculate that but it would take some time..."
+    goto calc
+  }
+
+  say "Calculating..."
+
+  do x = fibonacci(event)
+
+  say "Gotcha!\nFibonacci({{event}}) = {{x}}"
+  goto end

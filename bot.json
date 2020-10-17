@@ -1,0 +1,16 @@
+{
+  "id": "cd3d25aa-ed82-48d2-bac1-d97924beff0c",
+  "name": "Fibot",
+  "description": "I calculate fibonacci numbers, to demonstrate the CSML Native functions!",
+  "default_flow": "Default",
+  "flows": [
+    {
+      "name": "Default",
+      "description": "Default custom flow",
+      "commands": []
+    }
+  ],
+  "files": [],
+  "functions": [],
+  "apps": []
+}
